@@ -123,6 +123,7 @@ bool LinkedList<T>::removeBack()
 			m_front = nullptr;
 		}
 		delete lastNode;
+		m_size--;
 		isRemoved = true;
 	}
 
