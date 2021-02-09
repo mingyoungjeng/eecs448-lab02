@@ -40,7 +40,7 @@ bool LinkedList<T>::search(T value) const
 
 	if (!isEmpty())
 	{
-		while (temp->getNext() != nullptr)
+		while (temp != nullptr)
 		{
 			if (temp->getValue() == value)
 			{
