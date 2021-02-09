@@ -101,7 +101,7 @@ bool LinkedList<T>::removeBack()
 	Node<T>* secondintoLast = nullptr;
 	bool isRemoved = false;
 
-	if (!isEmpty) 
+	if (!isEmpty()) 
 	{
 		// begin search at front
 		lastNode = m_front;
